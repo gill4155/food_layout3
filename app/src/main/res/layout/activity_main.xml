@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_o"
+  >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP!"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/top_p"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:layout_below="@id/top_p"
+        android:textSize="30dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/activity"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="abcd..@food.com"
+        android:inputType="textCapCharacters"
+        android:id="@+id/activity_bar"
+        android:layout_below="@id/activity"
+        android:layout_marginLeft="2dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:layout_below="@id/activity_bar"
+        android:textSize="30dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/activity_main"
+    />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="set password"
+        android:inputType="textCapCharacters"
+        android:id="@+id/activity_ma"
+        android:layout_below="@id/activity_main"
+        android:layout_marginLeft="2dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="confirm password"
+        android:layout_below="@id/activity_ma"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/top_panel"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@id/top_panel"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        />
+</RelativeLayout>
